@@ -1,5 +1,10 @@
 package shipment;
-
-public class IShipment {
-
+public interface IShipment {
+	
+	public boolean addShipment();
+	
+	public boolean deleteShipment();
+	
+	public boolean getShipment();
+	
 }
